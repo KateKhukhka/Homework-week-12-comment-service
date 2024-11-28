@@ -34,6 +34,11 @@ submitButton.addEventListener(
       "***"
     );
 
+    if (!commentText.trim()) {
+      alert("Пожалуйста, введите ваш комментарий");
+      return;
+    }
+
     const newName = document.createElement("h3");
     newName.textContent = commentNameCheck2;
     const newAva = document.createElement("img");
