@@ -1,0 +1,47 @@
+body {
+  background-color: bisque;
+  color: rgb(68, 66, 66);
+}
+h2 {
+  color: peru;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: bisque;
+  font-size: 20px;
+  background-color: rgb(68, 66, 66);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+button:hover {
+  scale: 0.98;
+}
+.comment {
+  margin-left: 100px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+main {
+  display: flex;
+}
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+p {
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  border-bottom: solid rgb(68, 66, 66) 1px;
+}

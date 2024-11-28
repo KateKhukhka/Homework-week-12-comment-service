@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Comment Service</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Сервис комментариев со спам фильтром</h1>
+      </div>
+    </header>
+    <main>
+      <div class="comment_input">
+        <h2>Оставьте ваш комментарий</h2>
+        <h3>Введите ваше Имя:</h3>
+        <input type="text" id="input_name" />
+        <h3>Введите ссылку Вашего аватара:</h3>
+        <input type="text" id="input_link" />
+        <h3>Оставьте комментарий:</h3>
+        <textarea id="input_text"></textarea>
+        <div class="comment_button">
+          <button type="submit" id="main_button">
+            Отправить
+          </button>
+        </div>
+      </div>
+      <div class="comment">
+        <h2>Чат</h2>
+        <div id="comment_box"></div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
